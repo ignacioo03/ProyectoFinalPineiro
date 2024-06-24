@@ -1,0 +1,121 @@
+[
+    {
+        "id": "fideos-01",
+        "titulo": "Fideos Spaghetti",
+        "categoria": "Fideos",
+        "precio": 50,
+        "imagen": "../imagenes/spaghetti.jpg"
+    },
+    {
+        "id": "fideos-02",
+        "titulo": "Fideos Penne Rigatti",
+        "categoria": "Fideos",
+        "precio": 55,
+        "imagen": "../imagenes/pennerigatti.jfif"
+    },
+    {
+        "id": "fideos-03",
+        "titulo": "Fideos Mostacholes",
+        "categoria": "Fideos",
+        "precio": 60,
+        "imagen": "../imagenes/mostacholes.jpeg"
+    },
+    {
+        "id": "fideos-04",
+        "titulo": "Fideos Fetuccini",
+        "categoria": "Fideos",
+        "precio": 100,
+        "imagen": "../imagenes/fetuccini.jpeg"
+    },
+    {
+        "id": "fideos-05",
+        "titulo": "Fideos Cabello De Angel",
+        "categoria": "Fideos",
+        "precio": 110,
+        "imagen": "../imagenes/cabelloangel.jpg"
+    },
+    {
+        "id": "ravioles-01",
+        "titulo": "Ravioles de Ricota y verduras",
+        "categoria": "Ravioles",
+        "precio": 120,
+        "imagen": "../imagenes/ricotaverdura.jpg"
+    },
+    {
+        "id": "ravioles-02",
+        "titulo": "Ravioles de Verduras y arroz",
+        "categoria": "Ravioles",
+        "precio": 30,
+        "imagen": "../imagenes/verdurasarroz.jpg"
+    },
+    {
+        "id": "ravioles-03",
+        "titulo": "Ravioles de Jamón y Queso",
+        "categoria": "Ravioles",
+        "precio": 35,
+        "imagen": "../imagenes/jamonYQueso.jpg"
+    },
+    {
+        "id": "ravioles-04",
+        "titulo": "Ravioles de Vacio y Verduras",
+        "categoria": "Ravioles",
+        "precio": 40,
+        "imagen": "../imagenes/vacio.jpeg"
+    },
+    {
+        "id": "ravioles-05",
+        "titulo": "Ravioles de Calabaza y Muzzarela",
+        "categoria": "Ravioles",
+        "precio": 65,
+        "imagen": "../imagenes/calabaza.jpg"
+    },
+    {
+        "id": "salsa-01",
+        "titulo": "Salsa Bolognesa",
+        "categoria": "Salsa",
+        "precio": 115,
+        "imagen": "../imagenes/salsa-bolognesa.jpg"
+    },
+    {
+        "id": "salsa-02",
+        "titulo": "Salsa Crema y Champiñones",
+        "categoria": "Salsa",
+        "precio": 32,
+        "imagen": "../imagenes/champiñones.jfif"
+    },
+    {
+        "id": "salsa-03",
+        "titulo": "Salsa Pesto",
+        "categoria": "Salsa",
+        "precio": 40,
+        "imagen": "../imagenes/pesto.jpg"
+    },
+    {
+        "id": "especiales-01",
+        "titulo": "Lasagna",
+        "categoria": "Especiales",
+        "precio": 30,
+        "imagen": "../imagenes/lasagna.jpg"
+    },
+    {
+        "id": "especiales-02",
+        "titulo": "Panzotti",
+        "categoria": "Especiales",
+        "precio": 40,
+        "imagen": "../imagenes/panzotti.jfif"
+    },
+    {
+        "id": "especiales-03",
+        "titulo": "Cappeletti",
+        "categoria": "Especiales",
+        "precio": 35,
+        "imagen": "../imagenes/cappeletti.jpg"
+    },
+    {
+        "id": "especiales-04",
+        "titulo": "Ñoquis Rellenos",
+        "categoria": "Especiales",
+        "precio": 35,
+        "imagen": "../imagenes/ñoquisrellenos.jpg"
+    }
+]

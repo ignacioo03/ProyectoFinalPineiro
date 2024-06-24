@@ -1,0 +1,597 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Albert Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #594B02;
+}
+
+.navbar-brand {
+  color: white !important;
+  text-shadow: 0 0 5px black;
+}
+.navbar-brand img {
+  height: 55px;
+  width: 60px;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: yellow !important;
+}
+
+h2 {
+  text-align: center;
+  background-color: #F2CB05;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 45px;
+  margin: 0;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-delay: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  font-style: italic;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.pright {
+  background-image: url(../imagenes/imagenNosotros.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pleft {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+  height: 350px;
+}
+
+.pleft-index {
+  height: 500px;
+}
+
+.nLeft {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+  height: 350px;
+}
+
+.nRight {
+  background-image: url(../imagenes/imagenNosotros.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nLeft2 {
+  background-image: url(../imagenes/fideosNosotros.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nRight2 {
+  background-color: #F6CE77;
+  background-image: linear-gradient(298deg, #F6CE77 0%, #F2DFBB 100%);
+  height: 350px;
+}
+
+.nRight3 {
+  background-image: url(../imagenes/nosotrospastas.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.nLeft3 {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+  height: 350px;
+}
+
+.sobreNosotros {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 200px;
+  font-weight: bold;
+  border-bottom: 0;
+  background-image: url(../imagenes/fotojumbotron.jpg);
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+h1,
+.fa-solid,
+.pJumbotron {
+  text-shadow: 0 0 5px black;
+}
+
+.nleft {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+}
+.nleft h3 {
+  margin-top: 10px;
+  background-color: #FFEB3B;
+  font-style: italic;
+}
+
+.d-block {
+  width: 100%;
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+.contenedorImagen {
+  border: 2px solid black;
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+}
+.contenedorImagen img.correctorAltura {
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 416px;
+}
+
+.accordion-button {
+  color: #594B02 !important;
+  font-size: 40px;
+}
+
+.accordion-button::after {
+  color: #594B02 !important;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.contenedorVideo {
+  border: 2px solid black;
+  padding: 15px;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+body {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F7CE68 100%);
+}
+
+h3 {
+  background-color: #FFEB3B;
+  font-style: italic;
+  font-size: 45px;
+}
+h4 {
+  font-style: italic;
+  font-size: 45px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.containerContacto {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 100%;
+  font-weight: bold;
+  border-bottom: 0;
+  background-image: url(../imagenes/fotojumbotronbyn.jpg);
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.containerContacto input {
+  width: 100%;
+  width: 700px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+.containerContacto textarea {
+  width: 100%;
+  width: 700px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.containerUbicacion {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+#food-menu {
+  background-color: #F6CE77;
+  background-image: linear-gradient(62deg, #F6CE77 0%, #F2DFBB 100%);
+}
+
+.food-menu-heading {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+.food-menu-container img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-description {
+  margin: auto 1.5rem;
+}
+
+.font-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444;
+}
+.food-btn {
+  border: 0;
+  background-color: white;
+  color: green;
+  padding: .4rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.recetas-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.recetas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.recetas-menu-item {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+
+.recetas-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recetas-description {
+  text-align: center;
+}
+
+.recetas-titile {
+  margin-top: 10px;
+}
+
+.recetas-img iframe {
+  width: 100%;
+  height: 200px;
+}
+
+/*carrito*/
+
+.carrito-productos .cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+.carrito-productos .carrito-img img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.carrito-productos .carrito-descripcion {
+  flex: 1;
+  margin-left: 70px;
+}
+
+.carrito-productos .producto-eliminar {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.carrito-acciones{
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrito-acciones-vaciar{
+  border: 0;
+  background-color:rgb(255, 0, 0);
+  padding: 1rem;
+  border-radius: 1rem;
+  color:white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.carrito-acciones-derecha{
+  display: flex;
+}
+
+.carrito-acciones-total{
+  display: flex;
+  background-color:rgb(255, 145, 0);
+  padding: 1rem;
+  color:black;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+
+.carrito-acciones-comprar{
+  border:0;
+  background-color:  green;
+  padding: 1rem;
+  color:white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 2rem;
+  border-radius: 1rem;
+}
+
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+}
+
+aside{
+  padding: 2rem;
+  padding-right: 0;
+  color: white;
+  position: sticky;
+  top:0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boton-menu{
+  background-color: transparent;
+  border: 0;
+  color:black;
+  font-size: 1rem;
+  display: flex;
+  font-weight: 600;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 2rem ;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.boton-menu:hover{
+  color: #000;
+}
+.numerito{
+  color: white;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin-left: 2rem;
+}
+.boton-carrito.active .numerito{
+  background-color: white;
+  color: white;
+}
+.custom-swal-title {
+  font-size: 24px;
+  background-color: white;
+  animation-duration: 0s;
+  animation-delay: 0s;
+;
+}
+
+/*inicio css del footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+footer .redes a {
+  text-decoration: none;
+}
+footer .redes i {
+  color: #FFC107;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+footer .redes i:hover {
+  color: #594B02;
+}
+
+/*--mediaqueries--*/
+@media screen and (max-width: 575px) {
+  .row {
+    flex-direction: column;
+  }
+  .pleft-index {
+    order: 1;
+  }
+  .pright {
+    order: 2;
+    height: 300px;
+  }
+  .nLeft2 {
+    order: 2;
+  }
+  .nRight2 {
+    order: 1;
+  }
+  .recetas-menu-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 752px) {
+  .pleft-index p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1920px) {
+  .navbar {
+    height: 120px;
+  }
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .nav-link {
+    font-size: 22px;
+    margin-right: 20px;
+  }
+  .nav-link.active {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 758px) and (max-width: 1128px) {
+  .pNosotros {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 572px) and (max-width: 758px) {
+  .pNosotros {
+    font-size: 16px;
+  }
+  .containerContacto input {
+    width: 100%;
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .containerContacto textarea {
+    width: 100%;
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 572px) {
+  .pNosotros {
+    font-size: 16px;
+  }
+  .containerContacto input {
+    width: 100%;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .containerContacto textarea {
+    width: 100%;
+    width: 300px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  h1,
+  .fa-solid,
+  .pJumbotron {
+    text-shadow: 0 0 5px black;
+    font-size: 22px;
+  }
+  body {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+  .food-menu-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .food-menu-item .food-description {
+    text-align: center;
+  }
+}
+/*fin scss del footer*//*# sourceMappingURL=estilos.css.map */
